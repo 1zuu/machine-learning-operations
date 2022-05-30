@@ -11,3 +11,6 @@ pip install -r requirements.txt
 git init
 dvc init
 dvc add data_git/winequality.csv
+
+git add .
+git commit -m "Initialize File Structure"
