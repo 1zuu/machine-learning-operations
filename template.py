@@ -20,9 +20,7 @@ files = [
     'params.yaml',
     '.gitignore',
     os.path.join('src', '__init__.py'),
-
-
-]
+        ]
 
 for f in files:
     with open(f, 'w') as f:
