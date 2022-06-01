@@ -18,3 +18,11 @@ dvc add data_git/winequality.csv
 git add .
 
 git commit -m "Initialize File Structure"
+
+
+***************** Load Data Stage *****************
+
+create src/get_data.py
+create src/load_data.py
+update dvc.yaml
+dvc repro
